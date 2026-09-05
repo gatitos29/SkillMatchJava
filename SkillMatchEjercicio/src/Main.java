@@ -1,19 +1,8 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-<<<<<<< Updated upstream
 
-        Vehiculos[] vehiculos = {
-                new Carro(),
-                new Moto(),
-                new Bicicleta()
-        };
-
-        for (Vehiculos vehiculo1 : vehiculos) {
-            vehiculo1.arrancar();
-            vehiculo1.detener();
-            vehiculo1.combustible();
-        }
-=======
         Scanner sc = new Scanner(System.in);
 
         System.out.println("=== SELECCIONE UNA OPCION ===");
@@ -49,6 +38,6 @@ public class Main {
 
         usuario.nombre();
         usuario.identificador();
->>>>>>> Stashed changes
+
     }
 }
