@@ -1,16 +1,14 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 
-        Vehiculos[] vehiculos = {
-                new Carro(),
-                new Moto(),
-                new Bicicleta()
-        };
+        Scanner sc = new Scanner(System.in);
 
-        for (Vehiculos vehiculo1 : vehiculos) {
-            vehiculo1.arrancar();
-            vehiculo1.detener();
-            vehiculo1.combustible();
-        }
+        System.out.println("=== REGISTRO ===");
+        System.out.println("1. Empresa");
+        System.out.println("2. Candidato");
+        System.out.println("Seleccione una opcion:");
+
     }
 }
